@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+       <meta name="description" content="This is my first Form Project">
+       <title>Form Project</title>
+       <link rel="stylesheet" href="style.css">
+       <script></script>
+    </head>
+    <body>
+        <form name="register">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>Username</label>
+                <input type="text" name="username">
+                <label>Password</label>
+                <input type="password" name="password">
+                <label>E-mail</label>
+                <!-- in HTML5 there exist email input type -->
+                <input type="text" name="email">
+                <label>Gender</label>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Your Favourites</legend>
+                <label>Your Favourite Text Editor</label>
+                <input type="radio" name="editor">KomodoEdit<br>
+                <input type="radio" name="editor">Netbeans<br>
+                <input type="radio" name="editor">SublimeText
+                <hr>
+                <label>Your Favourite Browser</label>
+                <input type="radio" name="editor">Google Chrome<br>
+                <input type="radio" name="editor">Mozile Firefox<br>
+                <input type="radio" name="editor">Opera
+                <hr>
+                <label>Your Favourite Operating System</label>
+                <input type="radio" name="editor">Apple Macintosh<br>
+                <input type="radio" name="editor">Linux<br>
+                <input type="radio" name="editor">Windows
+            </fieldset>
+            <fieldset>
+                <legend>Your Message</legend>
+                <textarea></textarea>
+                <input type="submit" value="Submit">
+            </fieldset>
+           
+        </form>
+    </body>
+</html>
